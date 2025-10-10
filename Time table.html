@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+<title>Time Table | vtucode</title>
+<style>
+body{
+font-family: ALgerian,Sans-Serif;
+}
+table{
+width:80%
+margin:20px auto;
+border-collapse:collapse;
+}
+th,
+td{
+border:1px Solid Blue;
+padding:8px;
+text-align:center;
+}
+th{
+background-color: Lavender;
+color:Navy blue;
+}
+tr:nth-child(even){
+background-color:White;
+}
+tr:nth-child(odd){
+background-color:Purssian blue;
+}
+.lab-hour{
+background-color:Royal blue;
+}
+.elective-hour{
+background-color:Light blue;
+}
+.highlight{
+font-wight:bold;
+color:Brown;
+}
+tfoot{
+background-color:Purple;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;">Time Table</h1>
+<table>
+<thead>
+<tr>
+<th>Day/Time</th>
+<th>9:00-10:00</th>
+<th>10:00-11:00</th>
+<th>11:00-12:00</th>
+<th>12:00-13:00</th>
+<th>LUNCH BREAK</th>
+<th>14:00-15:00</th>
+<th>15:00-16:00</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monday</td>
+<td>Math</td>
+<td>English</td>
+<td class="lab hour">Physics lab</td>
+<td>Elective</td>
+<td rowspan="5" class="highlight">Break</td>
+<td class="elective-hour">Elective</td>
+<td>Histroy</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td class="elective-hour">Elective</td>
+<td>Biology</td>
+<td class="lab hour">Chemistry lab</td>
+<td>Math</td>
+<td>Geography</td>
+<td>PE</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>History</td>
+<td>English</td>
+<td class="lab hour">Computer lab</td>
+<td>Math</td>
+<td>Physics</td>
+<td class="elective-hour">Elective</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>PE</td>
+<td>History</td>
+<td> Geography</td>
+<td>Biology</td>
+<td>Math</td>
+<td class="elective-hour">Elective</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td class="lab hour">Biology lab</td>
+<td>Math</td>
+<td>English</td>
+<td>Physics</td>
+<td>Chemistry</td>
+<td class="elective-hour">Elective</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="8">End of the Time Table</td>
+</tr>
+</tfoot>
+</ttable>
+</body>
+</html>
+
+
+
+
+
