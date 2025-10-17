@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title > Form </title> 
+</head>
+<body> 
+< form action ="">
+<p>
+  <label> Enter your name: </label>
+  <input type="text" name= "myname" size="20" maxlength="25"/>
+</p>
+<p>
+  <label> Enter your USN: </label>
+  <input type="text" name= "myusn" size="20" maxlength="25"/>
+</p>
+
+<p>
+  <label> Enter your emailid: </label>
+  <input type="text" name= "mymail" size="20" maxlength="25"/>
+</p>
+
+<p>
+  <label> Enter password: </label>
+  <input type="password" name= "mypass" size="20" maxlength="10"/>
+</p>
+
+<p>
+  <label> SEX: </label>
+  <label><input type="radio" name= "me" value="male"/> M </label>
+ <label><input type="radio" name= "me" value="female"/> F </label>
+</p>
+
+<p>
+  <label>Select department </label>
+  <select name= "dept"/>
+  <option> CSE </option>
+  <option> ASE </option>
+  <option> ISE </option>
+  <option> AI&DS </option>
+  <option> AI&ML </option>
+  <option> ECE </option>
+  <option> CIVIL </option>
+  <option> MECH </option>
+  <option> EEE </option>
+</p>
+
+<p>
+  <label> Programming language </label>
+  <label><input type ="checkbox" name="lan" value="html"/> HTML</label>
+  <label><input type ="checkbox" name="lan" value="python"/>PYTHON</label>
+  <label><input type ="checkbox" name="lan" value="c"/> C</label>
+  <label><input type ="checkbox" name="lan" value="java"/> JAVA</label>
+  <label><input type ="checkbox" name="lan" value="c++"/> C++</label>
+ </p>
+
+<p> FEEDBACK </p>
+  <text area name="feedback" row="3" column="50"></text>
+<p>
+  <input type="SUBMIT" value="SUBMIT"/>
+  <input type="RESET" value="RESET"/>
+  </p>
+
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
